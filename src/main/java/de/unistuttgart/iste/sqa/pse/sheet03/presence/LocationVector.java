@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet03.homework;
+package de.unistuttgart.iste.sqa.pse.sheet03.presence;
 
 /**
  * Please describe this class here.

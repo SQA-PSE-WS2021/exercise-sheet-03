@@ -2,6 +2,8 @@ package de.unistuttgart.iste.sqa.pse.sheet03.presence;
 
 import java.io.PrintStream;
 
+import de.hamstersimulator.objectsfirst.external.model.Territory;
+
 /**
  * Please describe this class here.
  * 
@@ -16,6 +18,7 @@ public final class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 	
 	@Override
 	protected void hamsterRun() {
+		final Territory territory = game.getTerritory();
         // TODO: Implement me!
         
     }
