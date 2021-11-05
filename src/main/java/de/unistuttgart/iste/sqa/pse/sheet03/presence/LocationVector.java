@@ -13,21 +13,21 @@ final class LocationVector {
         this.deltaRow = deltaRow;
         this.deltaColumn = deltaColumn;
     }
-    
+
     /**
      * Please write your documentation here.
      */
     public int getDeltaRow() {
         return deltaRow;
     }
-    
+
     /**
      * Please write your documentation here.
      */
     public int getDeltaColumn() {
         return deltaColumn;
     }
-    
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -36,7 +36,7 @@ final class LocationVector {
         result = prime * result + deltaColumn;
         return result;
     }
-    
+
     @Override
     public boolean equals(final Object object) {
         if (this == object) {
