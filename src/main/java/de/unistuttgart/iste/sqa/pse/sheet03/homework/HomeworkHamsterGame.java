@@ -1,14 +1,14 @@
 package de.unistuttgart.iste.sqa.pse.sheet03.homework;
 
 /**
- * This class implements {@link InternalHomeworkHamsterGame#hamsterRun()} method that runs 
+ * This class implements {@link InternalHomeworkHamsterGame#hamsterRun()} method that runs
  * the {@code doSomething} methods on a mysterious hamster.
  * You do not need to alter anything in this class.
  */
 public final class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
-	
-	@Override
-    protected void hamsterRun(){
+
+    @Override
+    protected void hamsterRun() {
         mysteriousPaule.write("Executing operation: doSomething2()");
         mysteriousPaule.doSomething2();
         mysteriousPaule.write("Executing operation: doSomething3()");
@@ -38,7 +38,7 @@ public final class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
         mysteriousPaule.write("Executing operation: doSomething2()");
         mysteriousPaule.doSomething2();
         mysteriousPaule.write("Executing operation: doSomething4()");
-        mysteriousPaule.doSomething4(); 
+        mysteriousPaule.doSomething4();
         mysteriousPaule.write("Executing operation: doSomething7()");
         mysteriousPaule.doSomething7();
         mysteriousPaule.write("Executing operation: doSomething6()");
@@ -77,10 +77,10 @@ public final class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
         mysteriousPaule.doSomething8();
     }
 
-	/**
-	 * Returns the {@link mysterioushamster} mysteriousPaule.
-	 */
-    mysterioushamster getHamster(){
+    /**
+     * Returns the {@link mysterioushamster} mysteriousPaule.
+     */
+    mysterioushamster getHamster() {
         return mysteriousPaule;
     }
 }
